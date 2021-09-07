@@ -1,3 +1,4 @@
+//This bit is for the boxes around the mouse
 let boxes = document.querySelectorAll('.box');
     
 const onMouseMove = (e) =>{        
@@ -22,6 +23,8 @@ document.querySelector(".toggle").addEventListener("click",() => {
 
 })
 
+//-------------------------------------------------------------
+//This bit is for the slide show 
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -48,6 +51,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   //dots[slideIndex-1].className += " active";
 }
+
+//-------------------------------------------------------------
+//This bit is for API
 
 var myHeaders = new Headers();
 myHeaders.append("x-rapidapi-key", "ed8fa7ffbf00e7ed51dca5edc25c11e9");
