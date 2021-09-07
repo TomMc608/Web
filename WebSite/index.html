@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,8 @@
     
 </head>
 <body>
+  
+  
     <section class="showcase">  <!-- needs to have active after showcase to make menu work -->
         <header>
             <h2 class="branding">Tom .Inc</h2>
@@ -89,6 +92,27 @@
 
 
 </body>
+
+<script>
+
+
+fetch("https://v1.hockey.api-sports.io/countries", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "v1.hockey.api-sports.io",
+		"x-rapidapi-key": "0d92237a76msh1fcb1715aa7ede5p124fb8jsn6cff3fe0b3c8"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.log(err);
+});
+
+ 
+  
+</script>
 
 <script>
     var slideIndex = 1;
