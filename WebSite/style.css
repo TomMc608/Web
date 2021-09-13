@@ -88,7 +88,8 @@
     left: 0%;
     right: 0%;
     bottom: 0%;
-    height: 750px;
+    width: auto;
+    height: 115%;
     object-fit: contain;
     opacity: 0.8;
    
@@ -107,17 +108,19 @@
 
 
 .text{
-    position: relative;
-    z-index: 10;
-    
+    position: fixed;
+    z-index: 200;
+    right: 50vh;
 }
 
 .text h2{
     font-size :5em;
     font-weight: 800;
     line-height: 1em;
+    align-content: center;
+    justify-content: center;
     text-transform: uppercase;
-    
+    text-align: center;
 }
 
 .menu{
