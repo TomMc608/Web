@@ -1,3 +1,6 @@
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}  
 //This bit is for the boxes around the mouse
 let boxes = document.querySelectorAll('.box');
     
@@ -28,6 +31,7 @@ document.querySelector(".toggle").addEventListener("click",() => {
 
 //-------------------------------------------------------------
 //This bit is for the slide show 
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -38,13 +42,6 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
-
-  
-
-
-
-
 
 
 function showSlides() {
@@ -58,6 +55,9 @@ function showSlides() {
   x[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+
 
   //dots[slideIndex-1].className += " active";
 
