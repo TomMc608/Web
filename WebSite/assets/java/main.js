@@ -36,13 +36,18 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
+  setTimeout(1000);
   showSlides(slideIndex += n);
 }
-
+setTimeout(1000);
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+
+setTimeout(1000);
+
+console.log("zzzzz")
 
 function showSlides() {
   var i;
