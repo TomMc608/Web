@@ -82,9 +82,45 @@ var requestOptions = {
 
 //look at the https://api-sports.io/documentation/hockey/v1#section/Architecture to find out how to write the URL
 fetch("https://v1.hockey.api-sports.io/teams/statistics?season=2019&team=29&league=3", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
+  .then(response => response.json())
+  .then(result => {
+    
+    // console.log(result)
+    // console.log(result.response.country.name) //country 
+    // console.log(result.response.country.flag) //gets the country flag
+    // console.log(result.response.team.name) //name of team
+    // console.log(result.response.goals.against.total.all) //shows all total goals in 2019
+    // console.log(result.response.goals.against.total.away) //shows total goals away
+    // console.log(result.response.goals.against.total.home) //shows total goals home
+    // console.log(result.response.team.logo) //gets teams logo
+
+    const CountryName = result.response.country.name
+    const CountryFlag = result.response.country.flag
+    const TeamName = result.response.team.name
+    const TeamLogo = result.response.team.logo
+    const TotalGoals = result.response.goals.against.total.all
+    const TotalGoalsAway = result.response.goals.against.total.away
+    const TotalGoalsHome = result.response.goals.against.total.home
+    
+  
+
+    console.log(CountryName)
+    console.log(CountryFlag)
+    console.log(TeamName)
+    console.log(TeamLogo)
+    console.log(TotalGoals)
+    console.log(TotalGoalsHome)
+
+    document.querySelector('#stuff').innerHTML = `hi this is a test ${CountryName} hi`;
+
+
+
+
+
+
+  });
+  
+
 
 
 

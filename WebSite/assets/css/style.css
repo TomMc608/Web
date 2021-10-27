@@ -303,7 +303,7 @@ body{
 
 .end{
   display: inline-block;
-  background: blue;
+  background: black;
   z-index:20;
   top: 210vh;
   position:absolute;
@@ -325,15 +325,8 @@ body{
   
 }
 
-.Image-1{
-  position: absolute;
-  top:1vh;
-  left: 10vh;
-  z-index: 40;
 
-}
-
-.Image-2{
+/* .Image-2{
   position: absolute;
   top:1vh;
   left: 50vh;
@@ -348,42 +341,78 @@ body{
   z-index: 40;
 
   
+} */
+
+.Image-5{
+  position: relative;
+  top:-40vh;
+  left: 0vh;
+  z-index: 40;
+}
+
+.Image-6{
+  position: relative;
+  flex: auto;
+  top:-40vh;
+  left: 10vh;
+  z-index: 40;
+}
+
+.Image-7{
+  position: relative;
+  flex: auto;
+  top:-40vh;
+  left: 20vh;
+  z-index: 40;
+}
+
+.Image-8{
+  position: relative;
+  flex: auto;
+  top:-40vh;
+  left: 30vh;
+  z-index: 40;
 }
 
 .Image-9{
-  position: absolute;
-  top:1vh;
-  left: 150vh;
+  position: relative;
+  flex: auto;
+  top:-40vh;
+  left: 40vh;
   z-index: 40;
 }
 
 .Image-10{
-  position: absolute;
-  top:1vh;
-  left: 200vh;
+  position: relative;
+  flex: auto;
+  top:20vh;
+  left: 0vh;
   z-index: 40;
 }
 
 .Image-11{
-  position: absolute;
-  top:1vh;
-  left: 300vh;
+  position: relative;
+  flex: auto;
+  top:20vh;
+  left: 30vh;
   z-index: 40;
 
 }
 
 .Image-12{
-  position: absolute;
-  top:1vh;
-  left: 350vh;
+  position: relative;
+  flex: auto;
+  top:20vh;
+  left: 60vh;
   z-index: 40;
  
 }
 
 .Image-13{
-  position: absolute;
-  top:1vh;
-  left: 400vh;
+  position: relative;
+  flex: auto;
+  top:20vh;
+  left: 90vh;
   z-index: 40;
 }
 
