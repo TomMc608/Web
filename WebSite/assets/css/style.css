@@ -346,9 +346,9 @@ body{
 
 .Image-5{
   position: relative;
-  top:-40vh;
+  top:-357px;
   height: auto;
-  left: 0vh;
+  left: 0px;
   z-index: 40;
 }
 
@@ -356,8 +356,8 @@ body{
   position: relative;
   flex: auto;
   height: auto;
-  top:-40vh;
-  left: 70vh;
+  top:-357px;
+  left: 667px;
   z-index: 40;
 }
 
@@ -365,8 +365,8 @@ body{
   position: relative;
   flex: auto;
   height: auto;
-  top:-33vh;
-  left: -60vh;
+  top:-287px;
+  left: -610px;
   z-index: 40;
 }
 
