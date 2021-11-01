@@ -326,6 +326,7 @@ body{
 }
 
 
+
 /* .Image-2{
   position: absolute;
   top:1vh;
@@ -346,6 +347,7 @@ body{
 .Image-5{
   position: relative;
   top:-40vh;
+  height: auto;
   left: 0vh;
   z-index: 40;
 }
@@ -353,22 +355,25 @@ body{
 .Image-6{
   position: relative;
   flex: auto;
+  height: auto;
   top:-40vh;
-  left: 10vh;
+  left: 70vh;
   z-index: 40;
 }
 
 .Image-7{
   position: relative;
   flex: auto;
-  top:-40vh;
-  left: 20vh;
+  height: auto;
+  top:-33vh;
+  left: -60vh;
   z-index: 40;
 }
 
-.Image-8{
+/*.Image-8{
   position: relative;
   flex: auto;
+  height: auto;
   top:-40vh;
   left: 30vh;
   z-index: 40;
@@ -377,6 +382,7 @@ body{
 .Image-9{
   position: relative;
   flex: auto;
+  height: auto;
   top:-40vh;
   left: 40vh;
   z-index: 40;
@@ -385,6 +391,7 @@ body{
 .Image-10{
   position: relative;
   flex: auto;
+  height: auto;
   top:20vh;
   left: 0vh;
   z-index: 40;
@@ -393,6 +400,7 @@ body{
 .Image-11{
   position: relative;
   flex: auto;
+  height: auto;
   top:20vh;
   left: 30vh;
   z-index: 40;
@@ -402,6 +410,7 @@ body{
 .Image-12{
   position: relative;
   flex: auto;
+  height: auto;
   top:20vh;
   left: 60vh;
   z-index: 40;
@@ -411,10 +420,22 @@ body{
 .Image-13{
   position: relative;
   flex: auto;
+  height: auto;
   top:20vh;
   left: 90vh;
   z-index: 40;
 }
+
+.Image-14{
+  position: relative;
+  flex: auto;
+  height: auto;
+  top:20vh;
+  left: 120vh;
+  z-index: 40;
+}
+
+*/
 
     
 * {
