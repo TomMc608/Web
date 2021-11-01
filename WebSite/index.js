@@ -12,8 +12,9 @@ app.get('/',(req, res) => {
     let user = {"name":"Tom"}
     res.render('index')
 })
-app.get('/home', (req, res) => res.render('index'))
-app.get('/user', (req, res) => res.render('Hello User'))
+app.get('/API', (req, res) => res.render('API'))
+
+
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
 
