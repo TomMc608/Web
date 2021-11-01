@@ -111,7 +111,8 @@ fetch("https://v1.hockey.api-sports.io/teams/statistics?season=2019&team=29&leag
     console.log(TotalGoals)
     console.log(TotalGoalsHome)
 
-    document.querySelector('#stuff').innerHTML = `hi this is a test ${CountryName} hi`;
+    document.querySelector('#stuff').innerHTML = `The countries name is ${CountryName} and this is pulled
+    from an API`;
 
 
 
