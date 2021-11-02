@@ -1,0 +1,9 @@
+.pic_output{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    width: 200px;
+}
+
