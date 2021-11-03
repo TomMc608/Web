@@ -7,7 +7,7 @@ let boxes = document.querySelectorAll('.box');
 const onMouseMove = (e) =>{        
   boxes.forEach((b,i) => {
       setTimeout(()=>{   
-          b.style.opacity = 5 - (.1*i);
+          b.style.opacity = 1 - (.1*i);
           b.style.left = e.pageX + 'px';
           b.style.top = e.pageY + 'px';           
       },40*(i+5))      

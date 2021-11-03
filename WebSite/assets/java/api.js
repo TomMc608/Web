@@ -5,6 +5,7 @@ var myHeaders = new Headers();
 myHeaders.append("x-rapidapi-key", "ed8fa7ffbf00e7ed51dca5edc25c11e9");
 myHeaders.append("x-rapidapi-host", "v1.hockey.api-sports.io");
 
+//cant use var use let
 var requestOptions = {
   method: 'GET',
   headers: myHeaders,
@@ -76,4 +77,3 @@ fetch("https://v1.hockey.api-sports.io/teams/statistics?season=2019&team=29&leag
   });
 }
 
-smthn();

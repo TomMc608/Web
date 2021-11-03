@@ -19,11 +19,13 @@
     pointer-events: none
   }
 
+
+  //do this foir middle
 .showcase{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +35,16 @@
     transition: 0.5s;
     
     
+}
+
+.showcase video{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  opacity: 0.8;
+ 
 }
 
 
@@ -82,18 +94,7 @@
 
 }
 
-.showcase video{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    width: auto;
-    height: 115%;
-    object-fit: contain;
-    opacity: 0.8;
-   
-}
+
 
 /*
 .overlay{
@@ -172,10 +173,9 @@
 .middle{
 
     display: inline-block;
-    background: black;
-    z-index:20;
+    background: white;
     width: 100%;
-    height: 110vh;
+    height: 1357px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,15 +438,20 @@ body{
 
 
 
-.bottom_grid{
+.grid-container{
   display:grid;
-  grid-template-columns: 1fr 4fr;
+  grid-gap: 2px;
+  grid-template-columns: auto auto auto ;
+  background-color: black;
+  
 }
 
-.bottom_grid .images{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.grid-item{
+  height: auto; 
+
 }
+
+
 
 
 
@@ -467,27 +472,10 @@ body {
   padding: 32px;
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+
 
 /* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
 
 .API
 {
