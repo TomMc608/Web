@@ -24,7 +24,7 @@
 .showcase{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 111.4vh;
  
     display: flex;
     justify-content: space-between;
@@ -173,9 +173,9 @@
 .middle{
 
     display: inline-block;
-    background: white;
+    background: black;
     width: 100%;
-    height: 1357px;
+    height: 110.6vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,7 +302,7 @@ body{
 
 .end{
   display: inline-block;
-  background: black;
+  background: rgb(255, 255, 255);
   z-index:20;
   top: 210vh;
   width: 100%;
@@ -325,125 +325,17 @@ body{
 
 
 
-/* .Image-2{
-  position: absolute;
-  top:1vh;
-  left: 50vh;
-  z-index: 40;
-
-}
-
-.Image-3{
-  position: absolute;
-  top:1vh;
-  left: 100vh;
-  z-index: 40;
-
-  
-} */
-
-.Image-5{
-  position: relative;
-  top:-357px;
-  height: auto;
-  left: 0px;
-  z-index: 40;
-}
-
-.Image-6{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:-357px;
-  left: 667px;
-  z-index: 40;
-}
-
-.Image-7{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:-287px;
-  left: -610px;
-  z-index: 40;
-}
-
-/*.Image-8{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:-40vh;
-  left: 30vh;
-  z-index: 40;
-}
-
-.Image-9{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:-40vh;
-  left: 40vh;
-  z-index: 40;
-}
-
-.Image-10{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:20vh;
-  left: 0vh;
-  z-index: 40;
-}
-
-.Image-11{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:20vh;
-  left: 30vh;
-  z-index: 40;
-
-}
-
-.Image-12{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:20vh;
-  left: 60vh;
-  z-index: 40;
- 
-}
-
-.Image-13{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:20vh;
-  left: 90vh;
-  z-index: 40;
-}
-
-.Image-14{
-  position: relative;
-  flex: auto;
-  height: auto;
-  top:20vh;
-  left: 120vh;
-  z-index: 40;
-}
-
-*/
 
 
 
 
 .grid-container{
   display:grid;
-  grid-gap: 2px;
+  grid-gap: 0px;
+  grid-row: 0px;
   grid-template-columns: auto auto auto ;
   background-color: black;
-  
+
 }
 
 .grid-item{
@@ -451,7 +343,9 @@ body{
 
 }
 
-
+.grid-item1{
+  height: 252px;
+}
 
 
 

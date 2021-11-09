@@ -32,20 +32,18 @@ document.querySelector(".toggle").addEventListener("click",() => {
 //-------------------------------------------------------------
 //This bit is for the slide show 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = 0;
+showSlides();
 
-function plusSlides(n) {
-  setTimeout(1000);
-  showSlides(slideIndex += n);
-}
-setTimeout(1000);
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function plusSlides() {
+  showSlides();
 }
 
+function negSlides() {
+  slideIndex-=2;
+  showSlides();
+}
 
-setTimeout(1000);
 
 console.log("zzzzz")
 
@@ -57,9 +55,10 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
+  if (slideIndex <= 0) {slideIndex = 4}
   x[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+  setInterval(showSlides, 4000); // Change image every 2 seconds
 
 
 
