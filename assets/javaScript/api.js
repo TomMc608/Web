@@ -1,4 +1,4 @@
-//This java is for pulling api data and putting it in an id then displaying 
+//This javaScript is for pulling api data and putting it in an id then displaying 
 //-it on the api webpage
 let myHeaders = new Headers();
 myHeaders.append("x-rapidapi-key", "ed8fa7ffbf00e7ed51dca5edc25c11e9");
