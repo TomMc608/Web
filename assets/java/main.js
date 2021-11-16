@@ -1,4 +1,4 @@
-window.onbeforeunload = function() {
+window.onbeforeunload = () => {
 	window.scrollTo(0, 0);
 }
 //This bit is for the boxes around the mouse
@@ -21,22 +21,22 @@ document.querySelector(".toggle").addEventListener("click", () => {
 })
 //-------------------------------------------------------------
 //This bit is for the slide show 
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
-function plusSlides() {
+ plusSlides = () => {
 	showSlides();
 }
 
-function negSlides() {
+negSlides = () => {
 	slideIndex -= 2;
 	showSlides();
 }
 console.log("zzzzz")
 
-function showSlides() {
-	var i;
-	var x = document.getElementsByClassName("mySlides");
+showSlides = () => {
+	let i;
+	let x = document.getElementsByClassName("mySlides");
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = "none";
 	}
