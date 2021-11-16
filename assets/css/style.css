@@ -74,6 +74,7 @@
 	filter: invert(1);
 }
 .text {
+	
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -170,6 +171,8 @@ img {
 	position: relative;
 	margin: auto;
 	height: auto;
+	background-color: black;
+	
 }
 /* Next & previous buttons */
 
@@ -201,7 +204,7 @@ img {
 /* Caption text */
 
 .Text {
-	color: #f2f2f2;
+	color: white;
 	font-size: 15px;
 	padding: 8px 12px;
 	position: absolute;

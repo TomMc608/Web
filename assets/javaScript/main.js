@@ -22,7 +22,7 @@ document.querySelector(".toggle").addEventListener("click", () => {
 //-------------------------------------------------------------
 //This bit is for the slide show 
 let slideIndex = 0;
-showSlides();
+
 
  plusSlides = () => {
 	showSlides();
@@ -53,3 +53,4 @@ setInterval(showSlides, 4000); // Change image every 2 seconds
 //dots[slideIndex-1].className += " active";
 //-------------------------------------------------------------
 //This bit is for API
+showSlides();
