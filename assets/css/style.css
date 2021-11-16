@@ -16,7 +16,7 @@
 	border: 1px solid white;
 	pointer-events: none
 }
-/* do this foir middle*/
+/* do this for middle*/
 
 .showcase {
 	position: relative;
@@ -292,116 +292,7 @@ body {
 	opacity: 1;
 	backface-visibility: hidden;
 }
-.grid-item1:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item1 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item1:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item1 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item2:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item2 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item3:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item3 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item4:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item4 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item5:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item5 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item6:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item6 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item7:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item7 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item8:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item8 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item9:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item9 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
-.grid-item10:hover {
-	transition: .5s ease;
-	opacity: 0.3;
-	backface-visibility: hidden;
-}
-.grid-item10 {
-	transition: .5s ease;
-	opacity: 1;
-	backface-visibility: hidden;
-}
+
 * {
 	box-sizing: border-box;
 }
