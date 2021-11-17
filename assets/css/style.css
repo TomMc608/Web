@@ -5,7 +5,7 @@
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
-/* the mouse boxes */
+/* Tihs bit is for the shadowing boxis attached to the mouse  */
 
 .box {
 	z-index: 90;
@@ -16,7 +16,7 @@
 	border: 1px solid white;
 	pointer-events: none
 }
-/* do this for middle*/
+/* This bit is for the top of the webpage and eveything until the slid show*/
 
 .showcase {
 	position: relative;
@@ -73,6 +73,7 @@
 	display: inline-block;
 	filter: invert(1);
 }
+
 .text {
 	
 	position: absolute;
