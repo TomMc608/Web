@@ -31,10 +31,12 @@
 	transition: 0.5s;
 }
 .showcase video {
+
 	position: absolute;
 	opacity: 0.8;
 }
 .showcase header {
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -63,6 +65,7 @@
 /* this is for the menu icon change*/
 
 .toggle.active {
+	width:100%;
 	position: relative;
 	width: 60px;
 	height: 60px;
@@ -77,7 +80,7 @@
 
 /* this is for the title of "float like a butterfly..." text */
 .text {
-	
+	width:100%;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -98,6 +101,7 @@
 
 /* all of this is for the popout menu*/
 .menu {
+
 	display: inline-block;
 	background: white;
 	z-index: 20;
@@ -113,9 +117,11 @@
 	justify-content: center;
 }
 .showcase.active {
+
 	width: calc(100% - 300px);
 }
 .menu.active {
+
 	margin-right: 0;
 }
 .menu ul {
@@ -132,6 +138,7 @@
 
 /* this bit is for the buttons for the slid show */
 .prev, .next {
+	width:100%;
 	cursor: pointer;
 	position: absolute;
 	z-index: 30;
@@ -158,7 +165,7 @@
 /* Slideshow container */
 
 .slideshow-container {
-
+	width:100%;
 	position: relative;
 	margin: auto;
 	height: auto;
@@ -168,6 +175,7 @@
 /* Next & previous buttons */
 
 .prev, .next {
+	width:100%;
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -198,6 +206,7 @@
 /* Number text (1/3 etc) */
 
 .numbertext {
+	width:100%;
 	color: #f2f2f2;
 	font-size: 12px;
 	padding: 30px 12px;
@@ -219,6 +228,7 @@ body {
 
 /* all of this is for the grid images */
 .grid-container {
+	width:100%;
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: auto auto auto;
@@ -233,6 +243,7 @@ body {
      flex-wrap: wrap; 
 }
 .grid-item {
+	width:100%;
 	height: auto;
 }
 .grid-item1:hover {
