@@ -19,6 +19,7 @@ fetch("https://v1.hockey.api-sports.io/countries", requestOptions).then(response
 		let div = document.createElement("div");
 		let img = document.createElement("img");
 		img.src = CountryFlag;
+		img.style.width = '100%';
 		div.append(img);
 		document.querySelector(".grid-container").append(div);
 	});
