@@ -57,6 +57,7 @@
 	background-position: center;
 	cursor: pointer;
 	display: inline-block;
+	transition: ease-in-out 0.3s;
 	filter: invert(1);
 }
 /* this is for the menu icon change*/
@@ -74,6 +75,7 @@
 	filter: invert(1);
 }
 
+/* this is for the title of "float like a butterfly..." text */
 .text {
 	
 	position: absolute;
@@ -82,6 +84,8 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+/*this bit is the "Tom .inc" text*/
 .text h2 {
 	font-size: 5em;
 	font-weight: 800;
@@ -91,6 +95,8 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/* all of this is for the popout menu*/
 .menu {
 	display: inline-block;
 	background: white;
@@ -122,15 +128,9 @@
 	font-size: 25px;
 	color: black;
 }
-.middle {
-	display: inline-block;
-	background: black;
-	width: 100%;
-	height: 110.6vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
+
+/* this bit is for the buttons for the slid show */
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
@@ -152,19 +152,9 @@
 .prev:hover, .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-* {
-	box-sizing: border-box
-}
-body {
-	font-family: Verdana, sans-serif;
-	margin: 0
-}
-.mySlides {
-	display: none
-}
-img {
-	vertical-align: middle;
-}
+
+
+
 /* Slideshow container */
 
 .slideshow-container {
@@ -214,60 +204,20 @@ img {
 	position: absolute;
 	top: 0;
 }
-/* The dots/bullets/indicators */
 
-.dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
+
+/*This is the colour of the menu*/
 .active, .dot:hover {
 	background-color: #717171;
 }
 /* Fading animation */
 
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
+
 body {
 	overflow-x: hidden;
 }
-.end {
-	display: inline-block;
-	background: rgb(255, 255, 255);
-	z-index: 20;
-	top: 210vh;
-	width: 100%;
-	height: 110vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-@-webkit-keyframes fade {
-	from {
-		opacity: .4
-	}
-	to {
-		opacity: 1
-	}
-}
-@keyframes fade {
-	from {
-		opacity: .4
-	}
-	to {
-		opacity: 1
-	}
-}
 
+/* all of this is for the grid images */
 .grid-container {
 	display: grid;
 	grid-gap: 20px;
@@ -296,17 +246,9 @@ body {
 	backface-visibility: hidden;
 }
 
-* {
-	box-sizing: border-box;
-}
-body {
-	margin: 0;
-	font-family: Arial;
-}
-.header {
-	text-align: center;
-	padding: 32px;
-}
+
+
+
 /* Create four equal columns that sits next to each other */
 
 .API {
