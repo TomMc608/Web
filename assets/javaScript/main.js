@@ -20,7 +20,7 @@ document.querySelector(".toggle").addEventListener("click", () => {
 	document.querySelector(".showcase").classList.toggle("active");
 })
 //-------------------------------------------------------------
-//This bit is for the slide show 
+//This bit is for the slide show buttons moving back and forth between slids
 let slideIndex = 0;
 
 
@@ -32,8 +32,8 @@ negSlides = () => {
 	slideIndex -= 2;
 	showSlides();
 }
-console.log("zzzzz")
-
+//--------------------------------------
+//this bit is for the slid show to move automaticly and then keep repeating
 showSlides = () => {
 	let i;
 	let x = document.getElementsByClassName("mySlides");
@@ -50,7 +50,4 @@ showSlides = () => {
 	x[slideIndex - 1].style.display = "block";
 }
 setInterval(showSlides, 4000); // Change image every 2 seconds
-//dots[slideIndex-1].className += " active";
-//-------------------------------------------------------------
-//This bit is for API
 showSlides();
