@@ -19,6 +19,7 @@
 /* This bit is for the top of the webpage and eveything until the slid show*/
 
 .showcase {
+	overflow: hidden;
 	position: relative;
 	width: 100%;
 	min-height: 111.4vh;
@@ -284,3 +285,11 @@ body {
 		max-width: 100%;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.menu.active {
+		width: 100%;
+		
+
+	}
+  }
